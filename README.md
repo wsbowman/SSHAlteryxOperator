@@ -1,6 +1,10 @@
 # SSHAlteryxOperator
 Airflow operator for executing SSH commands to Alteryx.
 
+This tool is designed to operate similarly to the standard SSH Operator while additionally:
+- Elevating Alteryx workflow errors to the airflow level
+- Capturing Alteryx workflow logs inside of Airflow logs
+
 ### Instructions
 Put the SHH_Plugin folder into the plugins folder in your Airflow project.
 
